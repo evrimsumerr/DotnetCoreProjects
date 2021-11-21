@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{3DC70C85-D54E-4BD3-ABBA-28F765D5D33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingMiddlewares", "ExceptionHandlingMiddlewares\ExceptionHandlingMiddlewares.csproj", "{05692ECC-C80E-4B48-BAC9-3C714F9F8330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DC70C85-D54E-4BD3-ABBA-28F765D5D33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC70C85-D54E-4BD3-ABBA-28F765D5D33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC70C85-D54E-4BD3-ABBA-28F765D5D33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC70C85-D54E-4BD3-ABBA-28F765D5D33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05692ECC-C80E-4B48-BAC9-3C714F9F8330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05692ECC-C80E-4B48-BAC9-3C714F9F8330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05692ECC-C80E-4B48-BAC9-3C714F9F8330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05692ECC-C80E-4B48-BAC9-3C714F9F8330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A281B185-5D45-4AFE-A9A0-704470704A07}
+	EndGlobalSection
+EndGlobal
