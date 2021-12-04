@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Middlewares;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,6 +38,7 @@ namespace ExceptionHandlingMiddlewares
             }
 
             app.UseMiddleware<ExceptionHandlerMiddleware>();
+            app.UseMiddleware<RequestResponseMiddleware>();
 
             app.UseHttpsRedirection();
 
